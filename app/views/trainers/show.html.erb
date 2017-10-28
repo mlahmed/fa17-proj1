@@ -4,7 +4,7 @@
 
 
 <% if @trainer.id == current_trainer.id%>
-<%= button_to "Create New Pokemon!",  create_path(id: current_trainer), :class => "button medium", :method => :patch %>
+<%= button_to "Create New Pokemon!",  new_path, :class => "button medium", :method => :get %>
 <% end %>
 
 

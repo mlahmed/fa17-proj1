@@ -20,6 +20,8 @@ You pass in the trainer id, to specify to redirect to trainers/trainer_id. For e
 
 # Question 5: Explain how putting this line "flash[:error] = @pokemon.errors.full_messages.to_sentence" shows error messages on your form.
 
+error.full_messages returns an array of all error messages in sentence format. “application.html.erb” is the main application layout so the error will appear in every view.
+
 # Give us feedback on the project and decal below!
 
 # Extra credit: Link your Heroku deployed app
